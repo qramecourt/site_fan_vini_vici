@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/back/scriptFormulaire.php" defer></script>
+    <script src="/front/app.js"></script>
+    <link rel="stylesheet" href="/front/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <header class="banner">
+            <div class="linkToOtherpages">
+                <a href="history.html">histoire du groupe</a><!--history-->
+            </div>
+            <div class="linkToOtherpages">
+                <a href="musicStyle.html">leur style de musique</a><!--music-->
+            </div>
+            <div class="linkToOtherpages">
+                <a href="greatestHits.html">meilleurs titres</a><!--hits-->
+            </div>
+            <div class="linkToOtherpages">
+                <a href="contact.html">contact</a><!--contact-->
+            </div>
+        </header>
+        <div>
+            <form action="/back/scriptFormulaire.php" method="post">
+                <div class="input">
+                    votre nom: <input type="text" name="name" id="name" placeholder="Michel">
+                </div>
+                <div class="input">
+                    votre adresse e-mail: <input type="mail" name="mail" id="mail" placeholder="bouboule@gmai.com" required>
+                </div>
+                <div class="input">
+                    votre adresse<input type="text" name="" id="">
+                </div>
+                <div class="input">
+                    votre date de naissance<input type="date" name="birthdate" id="birthdate">
+                </div>
+                <select name="select" id="select">
+                    <option value="selectTitle">--choisissez le pays d'ou vous venez--</option>
+                </select>
+            </form>
+        </div>
+</body>
+</html>

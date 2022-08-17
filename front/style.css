@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+/* rules to applyfont-family: 'Aboreto', cursive;
+    only for the title
+*/
+
+body  {
+    background: linear-gradient(0.25turn, #12c2e9, #c471ed, #f64f59)
+}
+
+header {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.main-title {
+    font-family: 'Aboreto', cursive ;
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+button {
+    margin: auto;
+    border: 5px solid white;
+    background-color: transparent;
+    width: 20vh;
+    height: 10vh;
+    border-radius: 25%;
+    transition: width 2s, visibility 0.5s;
+}
+
+/*apply to all the links*/
+a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+
+
+
+.linkToOtherpages {
+    text-align: center;
+    transition: text-decoration 3s;
+}
+.linkToOtherpages:hover {
+    text-decoration: underline black;
+}
+
+/*style to buttons*/
+button:hover {
+    width: 30vh
+}
+.buttonGrid {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    border-top: 1px solid white;
+    text-align: center;
+}
+/*applies to footers*/
+footer div {
+    border-left: 1px solid white;
+}
+
+
+/*style to paragraphs in body class*/
+.pageBody {
+    background-color: aliceblue;
+    border-radius: 5%;
+}
+.pageBody p {
+    text-align: center;
+}
+
+
+form {
+ display: block;
+}
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 50vh;
+    height: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px
+}
+select {
+    text-align: center;
+}
+img {
+    width: 100px;
+}
+
+
