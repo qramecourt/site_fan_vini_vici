@@ -24,7 +24,7 @@ button {
     width: 20vh;
     height: 10vh;
     border-radius: 25%;
-    transition: width 2s, visibility 0.5s;
+    transition: width 2s;
 }
 
 /*apply to all the links*/
@@ -130,11 +130,15 @@ input:hover {
 select {
     color: white;
     border-radius: 25%;
-    transition: border 1s;
+    transition: border 1s, color 1s, font-size 1s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 select:hover {
     border:5px solid red;
+    color: #f64f59;
+    font-style: italic;
+    font-size: medium;
 }
 
 select:active {
